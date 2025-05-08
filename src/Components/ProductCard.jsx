@@ -42,7 +42,7 @@ function ProductCard({ dispatch, state, products }) {
             <AddBuyBtn
               onClick={() => {
                 if (state[product.id].addedToCart) {
-                  window.location.href = "/Cart";
+                  // window.write = "/cart";
                 } else {
                   dispatch({ type: "addToCart", id: product.id });
                 }
